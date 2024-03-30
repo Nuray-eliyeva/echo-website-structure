@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(83, 2, 73);
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-item{
+    list-style-type:none;
+    display: flex;
+    gap: 14px;
+    width:550px;
+    height: 40px;
+}
+#nav-item li{
+    background-color: aliceblue;
+    width: 60px;
+}
+.nav div{
+ width: 150px;
+ height: 40px;
+ background-color: aliceblue;
+}
+.expert{
+    width:100%;
+    height: 85vh;
+    background-color: rgb(143, 95, 188);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.expert div{
+    width: 600px;
+    height: 70vh;
+    background-color: rgb(190, 176, 204);
+}
+.about{
+    width: 100%;
+    background-color: rgb(97, 79, 113);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.about div{
+    width:50%;
+    height: 35vh;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#about-item1{
+    background-color:rgb(190, 131, 246) ;
+}
+#about-item2 div{
+    width: 230px;
+    height:30vh;
+    background-color: rgb(190, 131, 246);
+}
+.seting{
+    background-color: rgb(102, 102, 237);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seting div{
+    height:70vh;
+    background-color: rgb(72, 64, 78);
+}
+.servis{
+    background-color: rgb(184, 126, 234);
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.servis div{
+    /*background-color: rgb(47, 74, 98);*/
+    width: 50%;
+}
+#servis-item2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#servis-item2 div{
+    background-color: rgb(47, 74, 98);
+    width: 231px;
+    height: 235px;
+}
+.test{
+    background-color: rgb(82, 209, 209);
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.test div{
+  
+    height: 250px;
+}
+#test-item2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#test-item2 div{
+    background-color: rgb(6, 75, 75);
+    width: 240px;
+    height: 210px;
+}
+footer{
+    background-color: rgb(133, 135, 135);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+footer div{
+    background-color: rgb(72, 66, 66);
+    height:150px;
+}
